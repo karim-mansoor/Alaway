@@ -1,0 +1,69 @@
+.Aside {
+  padding: 3.7rem;
+  background-color: #0069a7;
+  color: #eee;
+  justify-content: center;
+  height: 30vh !important;
+}
+.styleButton {
+  background-color: #eee !important;
+  font-family: Arial !important;
+  margin: 15px 15px !important;
+  font-size: 1rem !important;
+  border-radius: 5px !important;
+  border: 1px solid #fff !important;
+  width: 20 0px !important;
+}
+
+.styleLink{
+  color: #0069a7 !important;
+  text-decoration: none;
+}
+
+.Typogra{
+  color: #eee !important;
+  font-size: 2rem !important;
+  font-family: Arial !important;
+}
+
+.Caption{
+  color: #a4a4a4 !important;
+  font-size: 1.2rem !important;
+  font-family: Arial !important;
+}
+
+.TextIconContent{
+  font-family: Arial !important;
+  color: #fff !important;
+  font-size: 1.3rem !important;
+}
+
+.iconAside{
+  font-size: 4rem !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .Aside {
+    padding: 1rem !important;
+    padding-top: 4vh !important;
+    height: 36vh !important;
+  }
+  .Typogra{
+    font-size: 1rem !important;
+    font-family: Arial !important;
+  }
+  .Caption{
+    font-size: 0.5rem !important;
+    font-family: Arial !important;
+  }
+  .TextIconContent{
+    font-size: 0.5rem !important;
+  }
+  .iconAside{
+    font-size: 1rem !important;
+  }
+  .styleButton {
+    margin: 2px 2px !important;
+    font-size: 0.5rem !important;
+  }
+}

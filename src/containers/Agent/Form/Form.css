@@ -1,0 +1,137 @@
+.Form{
+  /* background-color: #0069a7; */
+  background: rgba(76,148,207,0.7);
+  background: -moz-linear-gradient(left, rgba(76,148,207,0.7) 0%, rgba(76,148,207,0.7) 50%, rgba(76,148,207,0.7) 50%, rgba(76,148,207,0.7) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(76,148,207,0.7)), color-stop(50%, rgba(76,148,207,0.7)), color-stop(50%, rgba(76,148,207,0.7)), color-stop(100%, rgba(76,148,207,0.7)));
+  background: -webkit-linear-gradient(left, rgba(76,148,207,0.7) 0%, rgba(76,148,207,0.7) 50%, rgba(76,148,207,0.7) 50%, rgba(76,148,207,0.7) 100%);
+  background: -o-linear-gradient(left, rgba(76,148,207,0.7) 0%, rgba(76,148,207,0.7) 50%, rgba(76,148,207,0.7) 50%, rgba(76,148,207,0.7) 100%);
+  background: -ms-linear-gradient(left, rgba(76,148,207,0.7) 0%, rgba(76,148,207,0.7) 50%, rgba(76,148,207,0.7) 50%, rgba(76,148,207,0.7) 100%);
+  background: linear-gradient(to right, rgba(76,148,207,0.7) 0%, rgba(76,148,207,0.7) 50%, rgba(76,148,207,0.7) 50%, rgba(76,148,207,0.7) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006aa7', endColorstr='#006aa7', GradientType=1 );
+  padding: 2%;
+  border-radius: 5px;
+  text-align: center !important;
+  height: 100% !important;
+}
+
+.paperInput{
+  display: inline-block;
+  width: 50% !important;
+}
+
+.LoadingContainer {
+  margin-top: 50%;
+}
+
+.pageButton {
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  font-size: 1.5em;
+  padding: 2% 7%;
+  margin: 4% auto;
+  /* background-color: #0069a7 !important;
+  border-radius: 4px !important;
+  border-color: #286090;
+  border: 1px solid #fff !important;
+  color: #eee !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  font-family: Arial !important;
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  margin: 2px 0 !important;
+  margin-top: 20px !important;
+  height: 52px !important;
+  line-height: 48px !important;
+  position: relative !important;
+  padding: 0px 32px !important;
+  vertical-align: baseline !important;
+  width: 95% !important; */
+}
+
+.pageButtonInvalid {
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  font-size: 1.5em;
+  padding: 2% 7%;
+  margin: 4% auto;
+  cursor: not-allowed !important;
+  /* background-color: #0072b5b8 !important;
+  border-radius: 4px !important;
+  border-color: #0072b5b8;
+  border: 1px solid #fff !important;
+  color: #eee !important;
+  cursor: not-allowed !important;
+  display: inline-block !important;
+  font-family: Arial !important;
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  margin: 2px 0 !important;
+  margin-top: 20px !important;
+  height: 52px !important;
+  line-height: 48px !important;
+  position: relative !important;
+  padding: 0px 32px !important;
+  vertical-align: baseline !important;
+  width: 95% !important; */
+}
+
+.ErrorText {
+  color: #b80808;
+  font-size: 0.9em;
+}
+
+.ButtonLogin{
+  color: #0069a7 !important;
+  font-family: Arial !important;
+  cursor: pointer;
+}
+
+.small{
+  color: #0069a7;
+}
+
+.None {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: Arial-Rounded-MT-Light;
+}
+
+.Link {
+  text-decoration: none;
+  cursor: pointer;
+  color: #0069a7;
+}
+
+.Link:hover {
+  text-decoration: underline;
+}
+
+.InputPassword {
+  margin: 8px auto;
+  margin-left: 0px !important;
+}
+
+.Modal {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px 5px 5px 5px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  /* .Form{
+    padding: 10px !important;
+    margin: 0 !important;
+    height: 100% !important;
+  } */
+}
+
+@media only screen and (max-width: 1600px) {
+  /* .Form{
+    margin:  90px -40px;
+    height: 100%;
+  } */
+}

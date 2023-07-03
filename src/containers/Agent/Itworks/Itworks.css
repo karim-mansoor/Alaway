@@ -1,0 +1,79 @@
+.Itworks{
+  height: 79vh;
+}
+.TopSeccion{
+  margin-top: 8vh !important;
+}
+.Typogra{
+  font-size: 2.5rem !important;
+  font-family: Arial !important;
+}
+.Subheading{
+  font-family: Arial !important;
+  font-size: 1.25rem !important;
+  line-height: 3rem !important;
+  color: #67727E !important;
+  margin: 0 1rem !important;
+}
+.iconItworks{
+  color: #67727E !important;
+  font-size: 1rem !important;
+  margin: 0.6rem 0rem !important;
+}
+.Movil{
+  width: 300px;
+  height: 460px;
+}
+.alinear{
+  padding: 0 100px !important;
+  padding-top: 5vh !important;
+  text-align: right !important;
+}
+.ButtonDownload{
+  margin: 4px 15px !important;
+  width: 100px !important;
+}
+.None{
+  display: none !important;
+}
+.Block{
+  display: block;
+}
+.ResponsiveSubheading{
+  text-align: left !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .Itworks{
+    height: 155vh !important;
+  }
+  .TopSeccion{
+    margin-top: 5vh !important;
+  }
+  .Typogra{
+    font-size: 1.75rem !important;
+  }
+  .Subheading{
+    line-height: 2rem !important;
+  }
+  .ResponsiveSubheading{
+    padding: 10px !important;
+  }
+  .Movil{
+    width: 50vh !important;
+  }
+  .alinear{
+    text-align: center !important;
+    padding: 0 !important;
+    padding-top: 0 !important;
+  }
+  .Block{
+    display: none;
+  }
+  .None{
+    display: block !important;
+  }
+  .ButtonDownload{
+    width: 100px !important;
+  }
+}

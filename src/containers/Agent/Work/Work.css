@@ -1,0 +1,81 @@
+.Work{
+  background: -webkit-linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.8)),url(../../../assets/Testimonials.jpg);
+  background: -o-linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.8)),url(../../../assets/Testimonials.jpg);
+  background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.8)),url(../../../assets/Testimonials.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+.TopSeccion{
+  margin-top: 4vh !important;
+}
+.TopSeccionCirculos{
+  margin-top: 8vh !important;
+}
+.Typogra{
+  font-family: Arial !important;
+  color: #242A30 !important;
+  font-size: 2.5rem !important;
+}
+.circulo {
+  width: 180px !important;
+  height: 180px !important;
+  -moz-border-radius: 50% !important;
+  -webkit-border-radius: 50% !important;
+  border-radius: 50% !important;
+  background: #0069a7 !important;
+  margin-top: 2vh;
+}
+.iconWork{
+  color: #fff !important;
+  font-size: 5rem !important;
+  margin-top: 3vh;
+}
+.Subheading{
+  color: #fff !important;
+  font-family: Arial !important;
+}
+@media only screen and (max-width: 600px) {
+  .Work{
+    height: 135vh !important;
+  }
+  .TopSeccion{
+    margin-top: 5vh !important;
+  }
+  .TopSeccionCirculos{
+    margin-top: 2vh !important;
+  }
+  .Typogra{
+    font-size: 1.75rem !important;
+  }
+  .circulo {
+    width: 80px !important;
+    height: 80px !important;
+    margin-top: 4vh;
+  }
+  .iconWork{
+    font-size: 2rem !important;
+    margin-top: 2vh;
+  }
+  .Subheading{
+    font-size: 0.7rem !important;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .TopSeccion{
+    margin-top: 4vh !important;
+  }
+  .circulo {
+    width: 150px !important;
+    height: 150px !important;
+    margin-top: 4vh;
+  }
+  .iconWork{
+    font-size: 4rem !important;
+    margin-top: 2vh;
+  }
+  .Subheading{
+    font-size: 0.8rem !important;
+  }
+}

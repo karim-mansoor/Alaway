@@ -1,0 +1,247 @@
+.Div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+.CardTitle>span {
+  line-height: 1.75em;
+}
+
+.CardTitle {
+  font-size: 1.75rem;
+  line-height: 1.428571429;
+  border-bottom: 1px solid #DCE0E6;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 1em;
+  font-weight: 600;
+  padding: 0;
+  font-style: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+.CardPrincipalAccount {
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+
+.Container {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+  margin-bottom: 1rem;
+}
+
+.Form {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+.Input {
+  display: block;
+  width: 100%;
+  padding: 0.625em 1em;
+  font-weight: normal;
+  border: 1px solid #B1B9C3;
+  font-size: 1em;
+  border-radius: 4px;
+  -webkit-transition-property: border-color, color, box-shadow;
+  transition-property: border-color, color, box-shadow;
+  -webkit-transition-duration: 0.15s;
+  transition-duration: 0.15s;
+  max-width: 100%;
+  outline: none;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.Input:focus {
+  color: #242A30;
+  border-color: transparent;
+  box-shadow: inset 0 0 0 1px #51AF33;
+}
+
+.Select {
+  display: block;
+  width: 100%;
+  padding: 0.625em 1em;
+  font-weight: normal;
+  border: 1px solid #B1B9C3;
+  font-size: 1em;
+  border-radius: 4px;
+  -webkit-transition-property: border-color, color, box-shadow;
+  transition-property: border-color, color, box-shadow;
+  -webkit-transition-duration: 0.15s;
+  transition-duration: 0.15s;
+  max-width: 100%;
+  outline: none;
+  line-height: 1.5;
+  margin: 0;
+  background-color: white;
+}
+
+.FormItem {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-bottom: 1rem !important;
+}
+
+.Button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding: 0.5em 1.38em 0.5em;
+  border-radius: 4px;
+  font-size: 1.25rem;
+  font-weight: normal;
+  color: #545E69;
+  border: 1px solid #B1B9C3;
+  background-color: white;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition-property: background, color, border-color, box-shadow;
+  transition-property: background, color, border-color, box-shadow;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+  -webkit-transition-duration: 0.16s;
+  transition-duration: 0.16s;
+  line-height: 1.4;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.Button:hover {
+  color: #242A30;
+  border: 1px solid #B1B9C3;
+  background-color: #E8EBEF;
+}
+
+.ButtonSave {
+  margin-bottom: 0;
+  margin-left: 1em;
+  display: inline-block;
+  text-align: center;
+  padding: 0.5em 1.38em 0.5em;
+  border-radius: 4px;
+  font-size: 1.25rem;
+  font-weight: normal;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition-property: background, color, border-color, box-shadow;
+  transition-property: background, color, border-color, box-shadow;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+  -webkit-transition-duration: 0.16s;
+  transition-duration: 0.16s;
+  line-height: 1.4;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: white;
+  border: 1px solid #0069A7;
+  background-color: #0069A7;
+}
+
+.ButtonSave:hover {
+  border: 1px solid #016199;
+  background-color: #016199;
+}
+
+.Error {
+  font-size: 0.875rem;
+  color: #D14200;
+  margin-top: 0.5em;
+}
+
+.ContainerError {
+  border: 1px solid #D14200 !important;
+}
+
+.ButtonDisabled {
+  margin-bottom: 0;
+  margin-left: 1em;
+  display: inline-block;
+  text-align: center;
+  padding: 0.5em 1.38em 0.5em;
+  border-radius: 4px;
+  font-size: 1.25rem;
+  font-weight: normal;
+  outline: none;
+  cursor: not-allowed;
+  -webkit-transition-property: background, color, border-color, box-shadow;
+  transition-property: background, color, border-color, box-shadow;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+  -webkit-transition-duration: 0.16s;
+  transition-duration: 0.16s;
+  line-height: 1.4;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: white;
+  border: 1px solid #6aa7ca;
+  background-color: #6aa7ca;
+}
+
+.ButtonDisabledCancel {
+  margin-bottom: 0;
+  display: inline-block;
+  text-align: center;
+  padding: 0.5em 1.38em 0.5em;
+  border-radius: 4px;
+  font-size: 1.25rem;
+  font-weight: normal;
+  outline: none;
+  cursor: not-allowed;
+  -webkit-transition-property: background, color, border-color, box-shadow;
+  transition-property: background, color, border-color, box-shadow;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+  -webkit-transition-duration: 0.16s;
+  transition-duration: 0.16s;
+  line-height: 1.4;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #545E69;
+  border: 1px solid #B1B9C3;
+  background-color: white;
+}

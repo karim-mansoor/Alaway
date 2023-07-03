@@ -1,0 +1,618 @@
+.BookingForm {
+  margin: 0 auto;
+  background-color: #F5F5F7;
+  border: 1px solid #ddd;
+  padding: 20px;
+  display: block;
+  width: 80%;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.card_label{
+  margin: 0px !important;
+}
+
+.formContainer{
+  text-align: left;
+}
+
+.text_info {
+  text-align: left !important;
+  margin-bottom: 20px;
+}
+
+.text_info input {
+  margin-top: 5% !important;
+  margin-right: 20px !important;
+  margin-left: 20px !important;
+  vertical-align: top !important;
+}
+
+.buttonDeleteCard {
+  display: inline-block;
+}
+
+@media only screen and (min-width: 48.0625em) {
+  .BookingForm {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    float: left;
+  }
+}
+
+.ContentWrapper {
+  margin-top: .2em;
+  border-radius: 5px;
+  position: relative;
+  background-color: white;
+  padding-top: .9375em;
+}
+
+.ServiceSection {
+  border-bottom: 1px solid #dbe1e4;
+  padding-bottom: 1em;
+  padding-top: .9375em;
+}
+
+.Row {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 960px;
+}
+
+@media only screen and (min-width: 40.0625em) {
+  .Row {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+}
+
+.HeaderText {
+  font-weight: 500;
+  font-size: 1.6em;
+  margin-bottom: 0.5em;
+  line-height: 1.3;
+  text-align: initial;
+  margin: 0 1rem;
+  padding-bottom: 1.5rem;
+  padding-top: 0.75rem;
+}
+
+.Form {
+  width: 100%;
+}
+
+.SubHeaderText {
+  margin: 0 1rem;
+  padding-bottom: 1em !important;
+  text-align: center;
+  color: #0069a7;
+}
+
+.SubHeaderNumber {
+  border-radius: 50%;
+  width: 1.5em;
+  height: 1.5em;
+  background-color: #EDF5F8;
+  background-position: center;
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.25em;
+}
+
+.Parragraph {
+  font-size: 16px;
+  padding-bottom: 1rem;
+  font-weight: 500;
+  line-height: 1.61em;
+  margin: 0 1rem;
+}
+
+.Selection {
+  display: flex;
+  align-items: stretch;
+  padding: 0 0.9375rem;
+  padding-bottom: 0.5em;
+  flex-direction: row;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.SelectionButtons {
+  flex: 1;
+  position: relative;
+  text-align: center;
+  margin: 0.5em 0.25em;
+  margin-left: 0;
+}
+
+.RadioInput {
+  display: none;
+  margin: .35em 0 .5em;
+}
+
+.LabelInput {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: -0.25em;
+}
+
+.BoxRadio {
+  padding: 1em 0;
+  margin-bottom: 1em;
+  position: relative;
+  max-height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: #9CABB5;
+  color: #434343;
+  cursor: pointer;
+}
+
+.BoxPlanRadio {
+  padding: 0 1em;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+}
+
+.RadioInput:checked+label .BoxRadio {
+  border-color: #0069a7;
+  box-shadow: 0 0 0 2px #0069a7;
+}
+
+.Select {
+  display: block;
+  width: 100%;
+  padding: 0.625em 1em;
+  font-weight: normal;
+  border: 1px solid #B1B9C3;
+  font-size: 1em;
+  border-radius: 4px;
+  -webkit-transition-property: border-color, color, box-shadow;
+  transition-property: border-color, color, box-shadow;
+  -webkit-transition-duration: 0.15s;
+  transition-duration: 0.15s;
+  max-width: 100%;
+  outline: none;
+  line-height: 1.5;
+  margin: 0;
+  background-color: white;
+}
+
+.ServiceDate {
+  float: left;
+  margin-bottom: 1em;
+  padding-left: 0.9375em;
+  padding-right: 5em;
+  width: 100%;
+}
+
+.Service {
+  float: left;
+  margin-bottom: 1em;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+}
+
+.ExtraServices {
+  padding-left: 1.875em;
+  padding-right: 1.875em;
+}
+
+.BlockServices {
+  display: block;
+  padding: 0;
+  margin: 0 -0.625rem;
+  content: " ";
+  display: table;
+}
+
+.BlockServices:before {
+  content: " ";
+  display: table;
+}
+
+.Extras {
+  display: block;
+  height: auto;
+  float: left;
+  padding: 0 0.5rem 1.25rem;
+  clear: both;
+  font-size: .9em;
+  list-style: none;
+}
+
+.InputNone {
+  display: none;
+}
+
+.ExtraSvg {
+  cursor: pointer;
+  border: 1px solid white;
+  text-align: center;
+  line-height: 1.61em;
+}
+
+.ExtraSvg div svg {
+  margin: 20%;
+}
+
+.ExtraLabel {
+  font-size: .9em;
+}
+
+.ExtraIcon {
+  background-color: white;
+  display: inline-block;
+  width: 2.8773em;
+  height: 2.8773em;
+  line-height: 1.8773em;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  font-size: 2em;
+  border-width: 0.055em;
+  border-style: solid;
+  fill: #0069a7;
+  border-color: #0069a7;
+}
+
+.ExtraIconActive {
+  background-color: #0069a7;
+  display: inline-block;
+  width: 2.8773em;
+  height: 2.8773em;
+  line-height: 1.8773em;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  font-size: 2em;
+  border-width: 0.055em;
+  border-style: solid;
+  fill: white;
+  border-color: #0069a7;
+}
+
+.ExtraImage svg {
+  margin: 20%;
+}
+
+.Property {
+  padding-top: .2em;
+}
+
+.ButonProperty {
+  float: right;
+  background-color: #0069a7;
+  border: 1px solid #0069a7;
+  color: white;
+  width: 10em;
+  border-radius: 6px;
+  height: 2.8em;
+  font-size: 1em;
+}
+
+.ButonProperty:hover {
+  background-color: #0b8bd7;
+  border: 1px solid #0b8bd7;
+}
+
+.Input {
+  display: block;
+  width: 100%;
+  padding: 0.625em 1em;
+  font-weight: normal;
+  border: 1px solid #B1B9C3;
+  font-size: 1em;
+  border-radius: 4px;
+  -webkit-transition-property: border-color, color, box-shadow;
+  transition-property: border-color, color, box-shadow;
+  -webkit-transition-duration: 0.15s;
+  transition-duration: 0.15s;
+  max-width: 100%;
+  outline: none;
+  line-height: 1.5;
+  margin: 0;
+  background-color: white;
+}
+
+.Input:focus {
+  color: #242A30;
+  border-color: transparent;
+  box-shadow: inset 0 0 0 1px #0069a7;
+}
+
+.InputTime {
+  display: block;
+  width: 100%;
+  padding: 0.625em 1em;
+  font-weight: normal;
+  border: 1px solid #B1B9C3;
+  font-size: 1em;
+  border-radius: 4px;
+  -webkit-transition-property: border-color, color, box-shadow;
+  transition-property: border-color, color, box-shadow;
+  -webkit-transition-duration: 0.15s;
+  transition-duration: 0.15s;
+  max-width: 100%;
+  outline: none;
+  line-height: 1.5;
+  margin: 0;
+  background-color: white;
+  margin-left: 3em;
+}
+
+.InputTime:focus {
+  color: #242A30;
+  border-color: transparent;
+  box-shadow: inset 0 0 0 1px #0069a7;
+}
+
+.width100 {
+    width: 100% !important;
+}
+.Columns {
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  float: left;
+}
+
+.Relative {
+  position: relative;
+}
+
+.CreditCardIcon {
+  text-decoration: none;
+  border: none;
+  top: 1em;
+  margin-bottom: 0;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.MarginBottom {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.InputSmall {
+  width: 70px;
+  padding: 0.625em 1em;
+  font-weight: normal;
+  border: 1px solid #B1B9C3;
+  font-size: 1em;
+  border-radius: 4px;
+  -webkit-transition-property: border-color, color, box-shadow;
+  transition-property: border-color, color, box-shadow;
+  -webkit-transition-duration: 0.15s;
+  transition-duration: 0.15s;
+  max-width: 100%;
+  outline: none;
+  line-height: 1.5;
+  margin: 0 5px 0 0;
+  background-color: white;
+}
+
+.CreditCardInputSmall {
+  width: 48.8%;
+  padding: 0.625em 1em;
+  font-weight: normal;
+  border: 1px solid #B1B9C3;
+  font-size: 1em;
+  border-radius: 4px;
+  -webkit-transition-property: border-color, color, box-shadow;
+  transition-property: border-color, color, box-shadow;
+  -webkit-transition-duration: 0.15s;
+  transition-duration: 0.15s;
+  max-width: 100%;
+  outline: none;
+  line-height: 1.5;
+  background-color: white;
+}
+
+.ButtonBooking {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
+
+.ButtonBookingCore {
+  background: rgb(140,197,65); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(140,197,65,1) 0%, rgba(20,167,81,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(140,197,65,1) 0%,rgba(20,167,81,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(140,197,65,1) 0%,rgba(20,167,81,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44afe7', endColorstr='#3198df',GradientType=0 );
+  color: #fff;
+  display: block;
+  width: 100%;
+  border: 1px solid rgba(46, 86, 153, 0.0980392);
+  border-bottom-color: rgba(46, 86, 153, 0.4);
+  border-top: 0;
+  border-radius: 4px;
+  font-size: 17px;
+  text-shadow: rgba(46, 86, 153, 0.298039) 0px -1px 0px;
+  line-height: 34px;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  display : block;
+  margin-top: 20px;
+}
+
+.ButtonBookingCore:hover {
+  cursor: pointer;
+}
+
+.InputQuantity {
+  width: 50%;
+  padding: 0.625em 1em;
+  font-weight: normal;
+  border: 1px solid #B1B9C3;
+  font-size: 1em;
+  border-radius: 4px;
+  -webkit-transition-property: border-color, color, box-shadow;
+  transition-property: border-color, color, box-shadow;
+  -webkit-transition-duration: 0.15s;
+  transition-duration: 0.15s;
+  max-width: 100%;
+  outline: none;
+  line-height: 1.5;
+  margin: 0;
+  background-color: white;
+}
+
+.CenterInput {
+  margin: 0 auto;
+  width: 110px;
+  text-align: center;
+}
+
+.HeightDef {
+  height: 30px;
+}
+
+.NoMargin {
+ margin-bottom: 0px;
+ margin-top: 0px; 
+}
+
+.ColumnsIcon {
+  padding-left: 0.9375em;
+  padding-right: 5em;
+  float: left;
+}
+
+.ButtonBack:hover {
+  text-decoration: underline;
+  color: #0988d3;
+  cursor: pointer;
+}
+
+.formConten{
+  text-align: center !important;
+}
+
+.formCreditCard{
+  max-width: 100%;
+}
+
+.AddCardHolder{
+  text-align: end;
+  margin: 0 20px 0 30px;
+
+}
+
+.AddCard{
+  display: inline-block;
+  font-weight: normal;
+  vertical-align: middle;
+  padding-top: 0.625em;
+  padding-bottom: 0.625em;
+  font-size: 1.2rem;
+  color: #0069a7;
+  border: 1px solid #0069a7;
+  background-color: white;
+  text-align: center;
+  width: 45%;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  transition-property: background, color, border-color, box-shadow;
+  transition-timing-function: ease;
+  transition-duration: 0.16s;
+  line-height: 1.4;
+}
+
+.Selection{
+  display: inline-block;
+  font-weight: normal;
+  vertical-align: middle;
+  padding-top: 0.625em;
+  padding-bottom: 0.625em;
+  font-size: 1.2rem;
+  color: #0069a7;
+  border: 1px solid #0069a7;
+  background-color: white;
+  text-align: center;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  transition-property: background, color, border-color, box-shadow;
+  transition-timing-function: ease;
+  transition-duration: 0.16s;
+  line-height: 1.4;
+  width: 45%;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 600px){
+  .Input {
+    width: 85% !important;
+  }
+  .width100 {
+    width: 100% !important;
+  }
+  .CreditCardIcon {
+    width: 170px !important;
+  }
+  .Selection{
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .AddCard{
+    font-size: 1rem;
+    width: 100%;
+  }
+  .text_info input{
+    margin-top: 0% !important;
+    margin-right: 5px !important;
+    margin-left: 0px !important;
+  }
+  .textCardSelect{
+    font-size: 0.7em;
+  }
+  .SubHeaderText {
+    font-size: 1em;
+    padding-top: 1em !important;
+  }
+}
+
+@media (max-width: 756px) {
+    .CreditCardInputSmall {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1280px){
+  .Ajuste{
+    max-width: 50% !important;
+    flex-basis: 50% !important;
+  }
+}
+
+.CompraSegura {
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 250px
+}
+
+.row {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+}

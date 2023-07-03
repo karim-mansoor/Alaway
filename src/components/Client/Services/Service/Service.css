@@ -1,0 +1,36 @@
+.Card {
+  max-width: 100%;
+  border-radius: 5px !important;
+  box-shadow: none !important;
+  border: 1px solid #e9eced;
+}
+
+.Item {
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+@media (min-width: 700px) {
+  .Item {
+    padding:  0px 20px 0px 0px;
+  }
+}
+
+.Media {
+  height: -40px;
+  padding-top: 50%;
+}
+
+.CardContent {
+  min-height: 30px;
+  padding: 0 !important;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.Typo {
+  color: #0069a7 !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  padding: 10px !important;
+}

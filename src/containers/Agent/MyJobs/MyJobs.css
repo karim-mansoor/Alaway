@@ -1,0 +1,19 @@
+.root {
+  background-color: #f9f9f9 !important;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20vh;
+  align-items: center;
+  flex-grow: 1px;
+}
+.Typogra{
+  background-color: #f9f9f9 !important;
+  font-size: 20px !important;
+  line-height: 28px !important;
+  font-weight: 700 !important;
+  margin-top: 32px !important;
+  margin-bottom: 32px !important;
+  -webkit-box-flex: 1 !important;
+  -ms-flex-positive: 1 !important;
+  flex-grow: 1 !important;
+}

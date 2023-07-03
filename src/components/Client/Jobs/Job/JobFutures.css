@@ -1,0 +1,252 @@
+.Card {
+  max-width: 100%;
+  border-radius: 5px !important;
+}
+
+.Item {
+  padding: 10px 0;
+}
+
+.avatarHolder{
+  display: inline-block;
+  vertical-align: bottom !important;
+}
+
+.noAgent {
+  background-color: #455fcf;
+  height: 32px;
+  width: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: 700;
+  color: #fff;
+}
+
+.siAgent {
+  background-color: #bdbdbd;
+  height: 32px;
+  width: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: 700;
+  color: #fff;
+}
+
+.agentDetails{
+  display: flex;
+}
+
+.jobPrice{
+  float: right;
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 2% 0px auto auto;
+}
+
+.PriceSi {
+  display: none;
+}
+
+.jobAgent {
+  font-size: 16px !important;
+  line-height: 20px;
+  margin: 2% 0;
+}
+
+.jobService{
+  font-weight: 700!important;
+  margin-bottom: 8px!important;
+  font-size: 18px;
+  color: #333;
+}
+
+.sinPadding{
+  padding-bottom: 0 !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.jobAddress {
+  font-size: 15px;
+  color: #333;
+}
+
+.jobServicesWrapper{
+  -webkit-box-flex: 1 !important;
+  -ms-flex: 1 1 100% !important;
+  flex: 1 1 100% !important;
+}
+
+.jobDetails {
+  margin-top: 10px;
+}
+
+.jobExtraServices {
+  color: #333;
+  margin: 0px 8px 8px 0px;
+  padding: 3px 25px;
+  border: 1px solid #e9eced;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.jobBodyWrapper{
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+  margin: 0 20px !important;
+}
+
+.MarginIcon{
+  margin: -7px 0px;
+  padding: 3px 3px 3px 0px;
+}
+@media (min-width: 768px) {
+  .Item {
+    padding: 0;
+  }
+}
+
+.CardDate {
+  padding: 5px 5px;
+  background-color: #0069a7;
+  border-radius: 3px;
+}
+
+.CardDateTypo {
+  color: white !important;
+}
+
+.CardSubTitle{
+  margin-top: 5px !important;
+  margin-bottom: 20px !important;
+}
+
+.CardContent{
+  padding: 0 20px !important;
+}
+
+.CardBorder {
+  border-radius: 5px !important;
+  box-shadow: none !important;
+  border: 1px solid #e9eced;
+}
+
+.Service {
+  font-size: 1.3rem !important;
+  font-weight: 900 !important;
+}
+
+.list{
+  font-size: 12px;
+  padding: 10px 0px;
+  letter-spacing: 0.25px;
+  color: #676d73!important;
+  fill: #676d73!important;
+}
+
+.IconUbicacion{
+  margin-top: 10px;
+}
+
+.TotalMargin{
+  margin: 2% 0 !important;
+}
+
+@media (min-width: 375px) {
+  .TotalMargin{
+    margin: 5% 0 !important;
+  }
+}
+
+.Total {
+  font-size: 2rem !important;
+  text-align: center !important;
+  font-weight: 900 !important;
+}
+
+.ViewDetails {
+  text-align: center !important;
+}
+
+.Title {
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.25px !important;
+  line-height: 20px;
+}
+
+.Button {
+  background-color: #fff !important;
+  color: #676d73 !important;
+  border: 1px solid #676d73 !important;
+  padding: 8px 10px !important;
+  border-radius: 5px !important;
+  text-transform: initial !important;
+  width: 90%;
+}
+
+.Button:hover {
+  background-color: #fff !important;
+  color: #676d73 !important;
+  border: 1px solid #676d73 !important;
+  padding: 8px 10px !important;
+  border-radius: 5px !important;
+  font-weight: bold !important;
+}
+
+.TotalContainer {
+  text-align: center;
+  margin: 0 0 10px 0 !important;
+}
+
+.jobAddress {
+  font-size: 12px;
+}
+
+@media (min-width: 600px) {
+  .TotalContainer {
+    border-top: none !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    border-left: 1px solid #e9eced !important;
+    padding: 4% 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .PriceSi {
+    display: block !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Button {
+    padding: 7px 0px !important;
+  }  
+  .Button:hover {
+    padding: 0px 7px !important;
+  }
+  .jobPrice{
+    margin: 2% -10px auto auto !important;
+  }
+}

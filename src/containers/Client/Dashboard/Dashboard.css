@@ -1,0 +1,42 @@
+.Dashboard{
+  flex-grow: 1;
+  background-color: rgb(red, green, blue) !important;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.LoaderContainer {
+  margin-top: 15%;
+  height: 2000px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Dashboard{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  .Download{
+    background-color: white;
+    padding: 50px 0 !important;
+  }
+}
+
+@media (min-width: 601px){
+  .Dashboard{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Dashboard{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  .Download{
+    background-color: white;
+    padding-top: 0 50px !important;
+  }
+}

@@ -1,0 +1,19 @@
+.formContainer{
+  text-align: left;
+}
+.text_info {
+  text-align: left !important;
+  margin-bottom: 20px;
+}
+.textCardSelect{
+  font-size: 0.7em;
+}
+.card_label{
+  margin: 0px !important;
+}
+.buttonDeleteCard {
+  display: inline-block;
+}
+.lickDelete {
+  cursor: pointer;
+}

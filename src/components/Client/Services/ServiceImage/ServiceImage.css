@@ -1,0 +1,62 @@
+.ServiceImage {
+  width: 100%;
+  height: 150px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  color: #fff;
+  text-align: center;
+  margin-top: 118px;
+  text-align: center;
+  /* position: relative; */
+}
+
+.ServiceContainer {
+  padding-top: 180px;
+  padding-bottom: 180px;
+  height: 400px;
+  text-align: center;  
+}
+
+.ServiceTitle {
+  padding-top: 60px;
+  left: 40%;
+  opacity: 1;
+  z-index: 2;
+  color: white !important;
+  font-size: 2rem !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .ServiceContainer {
+    padding-top: 96px;
+    padding-bottom: 214px;
+    height: 250px;
+  }
+  .ServiceTitle {
+    padding-top: 30px;
+    font-size: 25px !important;
+  }
+  .ServiceImage {
+    margin-top: 60px;
+    height: 90px;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .ServiceImage {
+    height: 210px;
+  }
+
+  .ServiceContainer {
+    padding-top: 220px;
+    padding-bottom: 200px;
+    height: 500px;
+  }
+
+  .ServiceTitle {
+    padding-top: 80px;
+    font-size: 3rem !important;
+  }
+}
+

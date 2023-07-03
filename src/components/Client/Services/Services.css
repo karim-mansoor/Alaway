@@ -1,0 +1,42 @@
+.Services{
+  background-color: rgb(249, 249, 249);
+}
+.Title {
+  font-size: 20px !important;
+  line-height: 28px !important;
+  font-weight: 700 !important;
+  margin-top: 26px !important;
+  margin-bottom: 32px !important;
+  -webkit-box-flex: 1 !important;
+  -ms-flex-positive: 1 !important;
+  flex-grow: 1 !important;
+}
+
+.Items {
+  justify-content: center !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .Title {
+    font-size: 20px !important;
+    line-height: 28px !important;
+    font-weight: 700 !important;
+    margin-top: 30px !important;
+    margin-bottom: 10px !important;
+    -webkit-box-flex: 1 !important;
+    -ms-flex-positive: 1 !important;
+    flex-grow: 1 !important;
+    color: #333 !important;
+    padding: 0 4% !important;
+  }
+}
+
+@media (min-width: 601px){
+  
+}
+
+@media (min-width: 1024px) {
+  .Items {
+    justify-content: left !important;
+  }
+}

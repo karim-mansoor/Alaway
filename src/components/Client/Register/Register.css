@@ -1,0 +1,159 @@
+.Register{
+  border-radius: 5px 5px 5px 5px !important;
+  margin: 0px auto;
+  text-align: center;
+  height: 600px;
+  width: 600px;
+  background: rgba(76,148,207,0.8);
+  background: -moz-linear-gradient(left, rgba(76,148,207,0.8) 0%, rgba(76,148,207,0.8) 50%, rgba(76,148,207,0.8) 50%, rgba(76,148,207,0.8) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(76,148,207,0.8)), color-stop(50%, rgba(76,148,207,0.8)), color-stop(50%, rgba(76,148,207,0.8)), color-stop(100%, rgba(76,148,207,0.8)));
+  background: -webkit-linear-gradient(left, rgba(76,148,207,0.8) 0%, rgba(76,148,207,0.8) 50%, rgba(76,148,207,0.8) 50%, rgba(76,148,207,0.8) 100%);
+  background: -o-linear-gradient(left, rgba(76,148,207,0.8) 0%, rgba(76,148,207,0.8) 50%, rgba(76,148,207,0.8) 50%, rgba(76,148,207,0.8) 100%);
+  background: -ms-linear-gradient(left, rgba(76,148,207,0.8) 0%, rgba(76,148,207,0.8) 50%, rgba(76,148,207,0.8) 50%, rgba(76,148,207,0.8) 100%);
+  background: linear-gradient(to right, rgba(76,148,207,0.8) 0%, rgba(76,148,207,0.8) 50%, rgba(76,148,207,0.8) 50%, rgba(76,148,207,0.8) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006aa7', endColorstr='#006aa7', GradientType=1 );
+}
+.Applogo {
+  margin: 3% auto;
+  width: 12%;
+}
+.Title{
+  color: #fff;
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 0;
+}
+.RegisterContainer{
+  flex-grow: 1;
+}
+.ModalHeader{
+  background-color: #0069a7;
+  border-radius: 5px 5px 0px 0px;
+  text-align: right;
+  font-weight: 500;
+  padding: 10px;
+  color: #FFF !important;
+}
+.ButtonFacebookContainer{
+  border-radius: 5px 5px 5px 5px;
+  cursor: pointer;
+  padding: 6px 0;
+  width: 95%;
+}
+.ButtonFacebookText{
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: Arial;
+  padding: 3% 18%;
+}
+.IconFacebook{
+  width: 4vh;
+  margin: 0 30px;
+}
+.Divider{
+  border: 0;
+  height: 1px;
+  margin: 20px 0;
+  background: #ddd;
+  text-align: center;
+  position: relative;
+  clear: both;
+  width: 90%;
+}
+.DividerIcon{
+  background: #fff;
+  color: #bbb;
+  line-height: 50px;
+  position: absolute;
+  width: 30px;
+  font-size: 1rem;
+  margin: 0 auto 0 -25px;
+  top: -25px;
+  left: 52%;
+}
+.pageButton {
+  background-color: #0069a7 !important;
+  border-radius: 4px !important;
+  border-color: #286090;
+  border: 1px solid #fff !important;
+  color: #eee !important;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial !important;
+  font-size: 1rem !important;
+  font-weight: 500;
+  margin: 4px 0 !important;
+  margin-top: 20px;
+  height: 52px;
+  line-height: 48px;
+  position: relative;
+  padding: 0px 32px;
+  vertical-align: baseline;
+  width: 100% !important;
+  width: 100%;
+}
+.pageButtonRegistroAgente{
+  background-color: #FFF;
+  cursor: pointer;
+  justify-content: center;
+  margin: 3% 5%;
+  padding: 1%;
+  width: 24%;
+}
+.Typogra {
+  color: #0069a7 !important;
+  text-align: center !important;
+  font-size: 1.2rem !important;
+  padding-top: 2vh;
+  font-family: Arial !important;
+}
+
+.InputRegistre{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ButtonConten {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .Register{
+    height: 480px;
+    width: 300px;
+  }
+  .Typogra {
+    font-size: 1rem !important;
+  }
+  .form{
+    padding: 0 !important;
+  }
+  .RegisterContainer{
+    padding-top: 0 !important;
+  }
+  .IconFacebook{
+    width: 30px;
+    margin: 0 8px;
+  }
+  .ModalHeader{
+    padding: 0px;
+  }
+  .pageButtonRegistroAgente{
+    width: 130px !important;
+  }
+  .ButtonFacebookText{
+    font-size: 0.8rem !important;
+    padding: 10px !important;
+  }
+  .ButtonFacebookContainer{
+    padding: 2px 10px;
+  }
+}
+
+.LoadingContainer {
+  margin-top: 30%;
+}

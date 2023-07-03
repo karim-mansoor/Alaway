@@ -1,0 +1,79 @@
+.root {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    margin-top: 10% !important;
+    align-items: center !important;
+    flex-grow: 1px !important;
+  }
+  .Typogra{
+    font-size: 1.8em !important;
+    text-transform: uppercase;
+  }
+  .SubTypogra{
+    font-size: 1em !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+  }
+  .CardAgentShow{
+    margin-top: 5vh;
+  }
+  .Stars{
+    width: 1.2em;
+  }
+  .pageButton {
+    background-color: #0069a7 !important;
+    border-radius: 4px !important;
+    border-color: #286090;
+    border: 1px solid #fff !important;
+    color: #eee !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial !important;
+    font-size: 1rem !important;
+    font-weight: 500;
+    margin: 4px 0 !important;
+    margin-top: 20px;
+    height: 52px;
+    line-height: 48px;
+    position: relative;
+    padding: 0px 32px;
+    vertical-align: baseline;
+    width: 97% !important;
+  }
+  
+  .pageButtonInvalid {
+    background-color: #0984cd !important;
+    border-radius: 4px !important;
+    border-color: #0984cd;
+    border: 1px solid #fff !important;
+    color: #eee !important;
+    cursor: not-allowed;
+    display: inline-block;
+    font-family: Arial !important;
+    font-size: 1rem !important;
+    font-weight: 500;
+    margin: 4px 0 !important;
+    margin-top: 20px;
+    height: 52px;
+    line-height: 48px;
+    position: relative;
+    padding: 0px 32px;
+    vertical-align: baseline;
+    width: 97% !important;
+  }
+  
+  .ErrorText {
+    color: #b80808;
+    font-size: 0.9em;
+  }
+  @media only screen and (max-width: 600px){
+    .root {
+      margin-top: 45% !important;
+    }
+    .Typogra{
+      font-size: 1em !important;
+      text-transform: uppercase;
+    }
+    .Boot{
+      margin-top: 10% !important;
+    }
+  }

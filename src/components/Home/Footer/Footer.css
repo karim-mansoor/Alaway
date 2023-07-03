@@ -1,0 +1,108 @@
+.Contact {
+  background: url("../../../assets/piedepágina.png") no-repeat !important;
+  background-size: 100% 100% !important;
+  padding: 5vh !important;
+}
+
+.Paper {
+  background-color: transparent !important;
+  color: #fff !important;
+  margin: 0 0 3px 0;
+}
+
+.Styleicon {
+  height: 30%;
+  margin: 2px 6px 2px 6px;
+}
+
+.LogoNocNoc{
+  margin: 40px !important;
+}
+
+.SubTitle{
+  font-size: 1em !important;
+  font-family: Arial !important;
+  font-weight: 700 !important;
+}
+
+.UlContact{
+  text-align: left;
+  padding: 0 20px;
+}
+
+.ListContact{
+  padding: 5px 0;
+}
+
+.Link {
+  color: #fff !important;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+@media only screen and (max-width: 600px) {
+  .Contact {
+    background-image: none !important;
+    background: rgba(74,137,189,0.59) !important;
+    background: -moz-linear-gradient(-45deg, rgba(74,137,189,0.59) 0%, rgba(0,106,167,1) 100%) !important;
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(74,137,189,0.59)), color-stop(100%, rgba(0,106,167,1))) !important;
+    background: -webkit-linear-gradient(-45deg, rgba(74,137,189,0.59) 0%, rgba(0,106,167,1) 100%) !important;
+    background: -o-linear-gradient(-45deg, rgba(74,137,189,0.59) 0%, rgba(0,106,167,1) 100%) !important;
+    background: -ms-linear-gradient(-45deg, rgba(74,137,189,0.59) 0%, rgba(0,106,167,1) 100%) !important;
+    background: linear-gradient(135deg, rgba(74,137,189,0.59) 0%, rgba(0,106,167,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a89bd', endColorstr='#006aa7', GradientType=1 ) !important;
+    padding: 2rem !important;
+    padding-top: 2rem !important;
+    flex-grow: 1 !important;
+  }
+  .LogoNocNoc{
+    display: none !important;
+  }
+  .Paper{
+    font-size: 0.6rem !important;
+    padding-top: 0.5rem;
+  }
+  .SubTitle{
+    font-size: 1.4rem !important;
+    font-weight: 700 !important;
+  }
+  .Styleicon {
+    height: 2.3em !important;
+  }
+  .UlContact{
+    padding: 0 !important;
+    width: 100%;
+  }
+  .ListContact{
+    padding: 3px 0;
+  }
+  .Link {
+    font-size: 1.7em !important;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .LogoNocNoc{
+    display: block;
+  }
+  .Paper{
+    padding: 0.5rem 0;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .Paper{
+    padding: 0.5rem 0 !important;
+  }
+  .UlContact{
+    text-align: left;
+    padding: 0 20px;
+  }
+}

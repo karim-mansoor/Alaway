@@ -1,0 +1,12 @@
+.AvatarAgent {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.AvatarMargin {
+    margin-right: 16px;
+}
+.Name {
+    margin: 0;
+    display: block;
+}  

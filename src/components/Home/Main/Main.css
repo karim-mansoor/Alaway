@@ -1,0 +1,134 @@
+.Main{
+  background-attachment: fixed;
+  background: -webkit-linear-gradient(rgba(255,255,255,0.8), rgba(0,0,0,0.4)),url('../../../assets/BackgrounMain.jpg');
+  background: -o-linear-gradient(rgba(255,255,255,0.8), rgba(0,0,0,0.4)),url('../../../assets/BackgrounMain.jpg');
+  background: url('../../../assets/BackgrounMain.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.Modal {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.style {
+  font-size: 1.5rem;
+}
+
+.LandingButton{
+  margin: 50px 0px;
+  width: 100% !important;
+}
+
+.pageButtonActive {
+  background-color: transparent;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  border: 1px solid #fff;
+  text-decoration: none;
+  text-transform: none;
+  height: 8%;
+  width: 32%;
+  margin-bottom: .875em;
+  margin: 4px 20px;
+}
+
+.pageButtonActive:hover {
+  background-color: #0089d7;
+}
+
+.pageButton {
+  background-color: transparent;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  border: 1px solid #fff;
+  text-decoration: none;
+  text-transform: none;
+  height: 8%;
+  width: 32%;
+  margin: 4px 20px;
+}
+
+.pageButton:hover {
+  background-color: #0089d7 !important;
+}
+
+.Typogra {
+  color: #0069a7 !important;
+  font-size: 1.425em !important;
+  line-height: 1.5em;
+  max-width: 18.125em;
+  text-align: center;
+  font-family: Arial !important;
+  font-weight: 700 !important;
+}
+
+.SubTypogra {
+  color: #434343 !important;
+  text-align: center;
+  font-size: 0.8em !important;
+  font-family: Arial !important;
+  max-width: 50.125em;
+}
+
+.ImgMain {
+  width: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+  .Main {
+    background-attachment: fixed;
+    background-size: auto;
+  }
+  .style {
+    padding: 30px;
+    padding-top: 150px !important;
+    font-size: 0.5rem !important;
+  }
+  .Typogra {
+    font-size: 1.4rem !important;
+  }
+  .SubTypogra {
+    font-size: 1rem !important;
+    padding-top: 1rem;
+    color: #fff;
+  }
+  .MuiGrid-item-3 .MuiGrid-grid-xs-12-39 .MuiGrid-grid-sm-4-44 {
+    text-align: center;
+  }
+  .LandingButton{
+    margin-top: 2vh;
+  }
+  .pageButtonActive {
+    font-size: 20px;
+    height: 20%;
+    width: 100%;
+    margin: 4px 0px;
+  }
+  .pageButton {
+    font-size: 20px;
+    height: 20%;
+    width: 100%;
+    margin: 4px 0px;
+  }
+  .Modal {
+    margin: auto;
+    border-radius: 5px 5px 5px 5px !important;
+  }
+  .ImgMain_2 {
+    width: 60%;
+    margin-top: 20%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .style{
+    padding-top: 170px !important;
+  }
+}

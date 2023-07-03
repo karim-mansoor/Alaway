@@ -1,0 +1,58 @@
+.ServiceBooking {
+  padding-bottom: 2em;
+  padding-top: 5em;
+  color: #434343;
+  background-color: #f9f9f9;
+}
+
+.ButtonSolicitud{
+  display: none;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+.texTotal{
+  font-weight: bold;
+}
+
+.total{
+  color:#0069a7;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+@media only screen and (max-width: 600px){
+  .ServiceBooking {
+    padding-top: 0em !important;
+  }
+  .HowWorks {
+    display: none;
+  }
+  .ButtonSolicitud{
+    display: inline-block;
+  }
+  .ButtonBookingCore {
+    background-color: #0069a7;
+    border: 1px solid #0069a7;
+    color: white;
+    margin: 0.5em 30px 1em;
+    font-size: 1.6em;
+    height: 2.25em;
+    font-weight: 500;
+    width: 100%;
+  }
+  .ButtonBookingCore:hover {
+    background-color: #0988d3;
+    border: 1px solid #0988d3;
+  }
+}

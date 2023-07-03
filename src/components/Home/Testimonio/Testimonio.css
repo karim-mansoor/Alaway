@@ -1,0 +1,24 @@
+.imgTestimonio1{
+  text-align: center;
+}
+.imgTestimonio2{
+  text-align: left;
+}
+.imgTestimonio3{
+  text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+  .imgTestimonio1{
+    text-align: center;
+  }
+  .imgTestimonio2{
+    text-align: center;
+  }
+  .imgTestimonio3{
+    text-align: center;
+  }
+  .imgTestimonio{
+    width: 100%;
+  }
+}

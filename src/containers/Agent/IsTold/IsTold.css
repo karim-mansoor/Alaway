@@ -1,0 +1,55 @@
+.IsTold {
+  background: -webkit-linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),url(../../../assets/BackgrounIsTold.png);
+  background: -o-linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),url(../../../assets/BackgrounIsTold.png);
+  background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),url(../../../assets/BackgrounIsTold.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  flex-grow: 1;
+}
+.TopSeccion{
+  margin-top: 10vh !important;
+}
+.Typogra{
+  color: #0069a7 !important;
+  font-size: 2rem !important;
+  text-align: center;
+  font-family: Arial !important;
+}
+.SubTytle{
+  font-family: Arial !important;
+  font-weight: bold !important;
+}
+.AvatarIsTold{
+  width: 100px !important;
+  height: 100px !important;
+  margin: 0.5rem 0 !important;
+}
+.IsToldComentario{
+  font-size: 0.9rem;
+  font-style: italic;
+  font-family: Arial;
+  line-height: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .IsTold {
+	  height: 200vh !important;
+  	padding: 0 2rem;
+  }
+  .TopSeccion{
+    margin-top: 5vh !important;
+  }
+  .Typogra {
+    font-size: 1.75rem !important;
+  }
+  .SubTypogra {
+    font-size: 1rem !important;
+  }
+  .SubSubTypogra{
+    text-align: justify;
+  }
+  .SubTytle{
+    font-size: 1rem !important;
+  }
+}

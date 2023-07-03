@@ -1,0 +1,51 @@
+.root{
+  background-color: #f9f9f9 !important;
+  flex-grow: 1px;
+}
+.CardJob {
+  border: 2px solid #e3e3e3;
+  border-radius: 5px;
+  color: black !important;
+}
+.TitleCard{
+  font-size: 1.5em !important;
+}
+.SubTitleCard{
+  font-size: 1em !important;
+}
+.StatuCard{
+  color: #0069a7 !important;
+}
+.ContainerAvatar{
+  display: flex;
+}
+.imgAvatar{
+  flex: 0 0 auto !important;
+  margin-right: 16px;
+}
+.NameAvatar{
+  flex: 1 1 auto;
+  margin: 8px 0;
+}
+.TypograFechaPrecio{
+  color: black !important;
+}
+.pageButtonActive {
+  background-color: #0069a7 !important;
+  border-radius: 0px 0px 5px 5px !important;
+  width: auto !important;
+}
+.pageButtonJobCurrentDetalles {
+  background-color: #0069a7 !important;
+  border: 1px solid #0069a7 !important;
+  border-radius: 0px 0px 5px 5px !important;
+  width: auto !important;
+}
+.Button{
+  font-size: 1.2em !important;
+  color: white !important;
+}
+.ButtonDetalles{
+  font-size: 1.2em !important;
+  color: white !important;
+}

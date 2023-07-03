@@ -1,0 +1,58 @@
+.formContainer{
+  text-align: left;
+}
+.text_info {
+  text-align: left !important;
+  margin-bottom: 20px;
+}
+.textCardSelect{
+  font-size: 0.7em;
+}
+.card_label{
+  margin: 0px !important;
+}
+.buttonDeleteCard {
+  display: inline-block;
+}
+.lickDelete {
+  cursor: pointer;
+}
+.centradoComment {
+  padding: 2% 0;
+  width: 100%;
+}
+.Avatar {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  font-size: 1.25rem;
+  flex-shrink: 0;
+  font-family: Helvetica;
+  align-items: center;
+  user-select: none;
+  border-radius: 50%;
+  justify-content: center;
+}
+.Conten {
+  display: inline-block;
+  margin-left: 10px;
+  width: 85%;
+}
+.Conten > p {
+  margin: 0px !important;
+  padding: 0px !important;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+.deleteButton {
+  text-align: right;
+  display: inline-block;
+}
+.LinkDelete {
+  cursor: pointer;
+  color: red;
+}

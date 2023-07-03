@@ -1,0 +1,91 @@
+.root {
+  background-color: #f9f9f9 !important;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20vh;
+  align-items: center;
+  flex-grow: 1px;
+}
+.containerDatetimeReport {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Typogra{
+  background-color: #f9f9f9 !important;
+  font-size: 20px !important;
+  line-height: 28px !important;
+  font-weight: 700 !important;
+  margin-top: 32px !important;
+  margin-bottom: 32px !important;
+  -webkit-box-flex: 1 !important;
+  -ms-flex-positive: 1 !important;
+  flex-grow: 1 !important;
+}
+.ContenDatetime{
+  margin-top: 32px !important;
+  margin-bottom: 32px !important;
+  margin-right: 10px !important;
+}
+.ContenDate{
+  display: inline-flex;
+}
+.InputDateTime{
+  margin-right: 10px !important;
+}
+.SubTipogra{
+  font-size: 16px !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+.Table{
+  margin-top: 32px !important;
+  margin-bottom: 32px !important;
+}
+.ContenDateCombo{
+  /* margin: 0 0 0 20px; */
+}
+.FilterBtn {
+  border: 1px solid #0069a7!important;
+  border-radius: 5px;
+  color: #0069a7!important;
+  font-weight: 700!important;
+  background-color: #fff;
+  padding: 6px 25px;
+  margin: 0 7px 0 0;
+}
+.FilterBtn:hover {
+  background-color: #f7feff !important;
+}
+.alaingButton{
+  text-align: right;
+}
+.ArrowLeft{
+  margin: 5px;
+  padding: 0px;
+}
+.Date{
+  border: 1px solid lightgray;
+  font-weight: 600;
+  margin: 0px;
+}
+.Parrafo{
+  display: inline-block;
+  margin: 8px 16px 6px 0 !important;
+  float: left;
+}
+.Icon{
+  display: inline-block;
+  margin: 6px 0 6px 14px !important;
+  font-size: 2em;
+  line-height: 0;
+  color: lightgrey;
+}
+.ArrowRight{
+  padding: 5px;
+}
+.Cursor{
+  cursor: pointer;
+}
+.content{
+  padding-bottom: 10px;
+}

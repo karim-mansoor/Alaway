@@ -1,0 +1,80 @@
+.CardProfile {
+    background-color: white;
+    border: 1px solid #DCE0E6;
+    border-radius: 4px;
+    margin: 0;
+    padding: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+  }
+  
+  
+  
+  .ButtonEdit:hover {
+    color: white;
+    border: 1px solid #0069A7;
+    background-color: #0069A7;
+  }
+  
+  .SideNav .SideItem {
+    position: relative;
+    border-left: 3px solid transparent;
+  }
+  
+  .SideItem:hover {
+    border-left: 3px solid #DCE0E6;
+  }
+  
+  .SideNav .IsSelected {
+    background: #F9FAFB;
+    border-left: 3px solid #0069A7;
+  }
+  
+  .SideNav .SideItem.IsSelected a {
+    color: #0069A7;
+  }
+  
+  .CardContainer {
+    height: 100%;
+  }
+  
+  .SideNav .SideItem a {
+    margin: 0 1em;
+    line-height: 2.5em;
+    color: #545E69;
+    display: block;
+  }
+  
+  .CardPrincipal {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    border-left: 1px solid #DCE0E6;
+    padding: 1em;
+    width: 100%;
+  }
+  
+  .ColPrincipal {
+    margin-bottom: 0;
+  }
+  
+  .Link {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+  }
+  
